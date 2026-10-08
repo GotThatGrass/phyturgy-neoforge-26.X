@@ -1,0 +1,13 @@
+{
+  "itemGroup.symbiosis": "Example Mod Tab",
+  "block.symbiosis.example_block": "Example Block",
+  "item.symbiosis.example_item": "Example Item",
+
+  "symbiosis.configuration.title": "Symbiosis Configs",
+  "symbiosis.configuration.section.symbiosis.common.toml": "Symbiosis Configs",
+  "symbiosis.configuration.section.symbiosis.common.toml.title": "Symbiosis Configs",
+  "symbiosis.configuration.items": "Item List",
+  "symbiosis.configuration.logDirtBlock": "Log Dirt Block",
+  "symbiosis.configuration.magicNumberIntroduction": "Magic Number Text",
+  "symbiosis.configuration.magicNumber": "Magic Number"
+}
