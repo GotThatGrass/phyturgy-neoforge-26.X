@@ -1,4 +1,6 @@
-# Phyturgy
+# Phyturgy 🌿
+
+**Discover the hidden magic within plants.**
 
 <!-- Replace these links once your project pages are available. -->
 [![Minecraft](https://img.shields.io/badge/Minecraft-26.1-2d6b35?style=flat-square&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
@@ -7,15 +9,38 @@
 
 ## Overview
 
-**Phyturgy** is a Minecraft mod centered around botanical magic, inspired by the ancient Chinese *I Ching*.
+**Phyturgy** is a Minecraft mod centered around botanical magic, plant-derived materials, and the mysterious power hidden within nature.
 
-Extract magic from plants and harness their power to create potions and cast spells. Discover new flowers, trees, fungi, and more as you explore unfamiliar biomes and venture deep into caves. Use specialized tools to learn more about the natural world and unlock its hidden potential.
+Plants are more than just resources. Each plant can hold a **trigram**, a symbolic source of magical potential waiting to be discovered. Through specialized machinery, these trigrams can be extracted from plants, leaving behind peat as a useful byproduct.
 
-Every plant has a secret.
+Combine trigrams into **hexagrams** to explore new possibilities in potion brewing, spellcraft, and other forms of plant-based magic.
 
-## Development
+From processing natural materials to uncovering the secrets of botanical symbolism, Phyturgy aims to bring a new kind of magic to Minecraft—one rooted in the natural world.
 
-Phyturgy is currently in early development. Features and mechanics are subject to change.
+*Every plant has a secret. Learn to draw it out.*
+
+## Features
+
+Phyturgy is currently in early development. Planned features include:
+
+- **Trigram Extraction** — Extract magical symbols from plants using specialized machinery.
+- **Peat Production** — Turn processed plant matter into a useful byproduct.
+- **Hexagram Synthesis** — Combine trigrams to create more complex magical symbols.
+- **Potion Brewing** — Discover new recipes using the properties of plants and hexagrams.
+- **Spellcraft** — Harness botanical magic to produce supernatural effects.
+- **Extensible Magic System** — Make room for new plants, materials, trigrams, recipes, and magical mechanics.
+
+Features and mechanics may change throughout development.
+
+## Compatibility
+
+| Requirement | Version |
+|---|---|
+| Minecraft | 26.1 |
+| Mod Loader | NeoForge |
+| NeoForge | 26.1.0.19-beta |
+
+These versions reflect the current development environment and may change.
 
 ## Addons and Integration
 
