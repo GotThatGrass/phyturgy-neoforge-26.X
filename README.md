@@ -1,6 +1,5 @@
-# Phyturgy 🌿
+# Phyturgy
 
-**Discover the hidden magic within plants.**
 
 <!-- Replace these links once your project pages are available. -->
 [![Minecraft](https://img.shields.io/badge/Minecraft-26.1-2d6b35?style=flat-square&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
