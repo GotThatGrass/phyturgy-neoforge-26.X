@@ -8,7 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
 
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Phyturgy.PHYTURGY);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Phyturgy.MOD_ID);
 
     public static final DeferredItem<Item> FIELD_JOURNAL = ITEMS.registerSimpleItem(
             "field_journal"

@@ -14,7 +14,7 @@ import java.util.function.Function;
 
 public class ModBlocks {
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Phyturgy.PHYTURGY);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Phyturgy.MOD_ID);
 
     public static final DeferredBlock<Block> PEAT_BLOCK = registerBlock("peat_block",
             properties -> new Block(properties

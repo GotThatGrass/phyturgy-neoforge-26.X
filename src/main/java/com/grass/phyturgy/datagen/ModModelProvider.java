@@ -11,7 +11,7 @@ import net.minecraft.data.PackOutput;
 
 public class ModModelProvider extends ModelProvider {
     public ModModelProvider(PackOutput output) {
-        super(output, Phyturgy.PHYTURGY);
+        super(output, Phyturgy.MOD_ID);
     }
 
     @Override

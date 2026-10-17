@@ -13,7 +13,7 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 import java.util.List;
 import java.util.Set;
 
-@EventBusSubscriber(modid = Phyturgy.PHYTURGY)
+@EventBusSubscriber(modid = Phyturgy.MOD_ID)
 public class PhyturgyDataGen {
     @SubscribeEvent
     public static void gatherClientData(GatherDataEvent.Client event) {

@@ -11,9 +11,9 @@ import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
-@Mod(value = Phyturgy.PHYTURGY, dist = Dist.CLIENT)
+@Mod(value = Phyturgy.MOD_ID, dist = Dist.CLIENT)
 // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = Phyturgy.PHYTURGY, value = Dist.CLIENT)
+@EventBusSubscriber(modid = Phyturgy.MOD_ID, value = Dist.CLIENT)
 public class PhyturgyClient {
     public PhyturgyClient(ModContainer container) {
         // Allows NeoForge to create a config screen for this mod's configs.
