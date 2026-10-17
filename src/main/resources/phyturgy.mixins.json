@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.grass.symbiosis.mixin",
+  "package": "com.grass.phyturgy.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [],
   "injectors": {

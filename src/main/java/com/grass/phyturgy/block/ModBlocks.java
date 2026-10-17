@@ -1,9 +1,7 @@
-package com.grass.symbiosis.block;
+package com.grass.phyturgy.block;
 
-import com.grass.symbiosis.Item.ModItems;
-import com.grass.symbiosis.Symbiosis;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceKey;
+import com.grass.phyturgy.Item.ModItems;
+import com.grass.phyturgy.Phyturgy;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -16,7 +14,7 @@ import java.util.function.Function;
 
 public class ModBlocks {
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Symbiosis.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Phyturgy.PHYTURGY);
 
     public static final DeferredBlock<Block> PEAT_BLOCK = registerBlock("peat_block",
             properties -> new Block(properties

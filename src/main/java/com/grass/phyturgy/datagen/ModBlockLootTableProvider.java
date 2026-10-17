@@ -1,7 +1,7 @@
 
-package com.grass.symbiosis.datagen;
+package com.grass.phyturgy.datagen;
 
-import com.grass.symbiosis.block.ModBlocks;
+import com.grass.phyturgy.block.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;

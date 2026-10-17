@@ -1,13 +1,10 @@
-package com.grass.symbiosis;
+package com.grass.phyturgy;
 
-import com.grass.symbiosis.datagen.ModBlockLootTableProvider;
-import com.grass.symbiosis.datagen.ModBlockTagsProvider;
-import com.grass.symbiosis.datagen.ModModelProvider;
-import com.grass.symbiosis.datagen.ModRecipeProvider;
-import net.minecraft.data.DataGenerator;
-import net.minecraft.data.PackOutput;
+import com.grass.phyturgy.datagen.ModBlockLootTableProvider;
+import com.grass.phyturgy.datagen.ModBlockTagsProvider;
+import com.grass.phyturgy.datagen.ModModelProvider;
+import com.grass.phyturgy.datagen.ModRecipeProvider;
 import net.minecraft.data.loot.LootTableProvider;
-import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -16,8 +13,8 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 import java.util.List;
 import java.util.Set;
 
-@EventBusSubscriber(modid = Symbiosis.MOD_ID)
-public class SymbiosisDataGen {
+@EventBusSubscriber(modid = Phyturgy.PHYTURGY)
+public class PhyturgyDataGen {
     @SubscribeEvent
     public static void gatherClientData(GatherDataEvent.Client event) {
 

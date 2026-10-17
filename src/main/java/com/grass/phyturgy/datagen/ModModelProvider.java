@@ -1,8 +1,8 @@
-package com.grass.symbiosis.datagen;
+package com.grass.phyturgy.datagen;
 
-import com.grass.symbiosis.Item.ModItems;
-import com.grass.symbiosis.Symbiosis;
-import com.grass.symbiosis.block.ModBlocks;
+import com.grass.phyturgy.Item.ModItems;
+import com.grass.phyturgy.Phyturgy;
+import com.grass.phyturgy.block.ModBlocks;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
@@ -11,7 +11,7 @@ import net.minecraft.data.PackOutput;
 
 public class ModModelProvider extends ModelProvider {
     public ModModelProvider(PackOutput output) {
-        super(output, Symbiosis.MOD_ID);
+        super(output, Phyturgy.PHYTURGY);
     }
 
     @Override

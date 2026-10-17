@@ -1,7 +1,7 @@
-package com.grass.symbiosis.datagen;
+package com.grass.phyturgy.datagen;
 
-import com.grass.symbiosis.Symbiosis;
-import com.grass.symbiosis.block.ModBlocks;
+import com.grass.phyturgy.Phyturgy;
+import com.grass.phyturgy.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -11,7 +11,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagsProvider extends BlockTagsProvider {
     public ModBlockTagsProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider) {
-        super(output, lookupProvider, Symbiosis.MOD_ID);
+        super(output, lookupProvider, Phyturgy.PHYTURGY);
     }
 
     @Override

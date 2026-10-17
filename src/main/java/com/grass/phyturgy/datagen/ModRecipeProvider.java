@@ -1,14 +1,12 @@
-package com.grass.symbiosis.datagen;
+package com.grass.phyturgy.datagen;
 
-import com.grass.symbiosis.Item.ModItems;
-import com.grass.symbiosis.Symbiosis;
-import com.grass.symbiosis.block.ModBlocks;
+import com.grass.phyturgy.Item.ModItems;
+import com.grass.phyturgy.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
-import net.neoforged.neoforge.common.PercentageAttribute;
 
 import java.util.concurrent.CompletableFuture;
 

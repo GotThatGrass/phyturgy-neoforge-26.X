@@ -1,18 +1,14 @@
-package com.grass.symbiosis.Item;
+package com.grass.phyturgy.Item;
 
-import com.grass.symbiosis.Symbiosis;
-import com.grass.symbiosis.block.ModBlocks;
-import net.minecraft.world.item.BlockItem;
+import com.grass.phyturgy.Phyturgy;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
 
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Symbiosis.MOD_ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Phyturgy.PHYTURGY);
 
     public static final DeferredItem<Item> FIELD_JOURNAL = ITEMS.registerSimpleItem(
             "field_journal"

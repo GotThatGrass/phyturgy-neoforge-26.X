@@ -1,7 +1,7 @@
-package com.grass.symbiosis.Item;
+package com.grass.phyturgy.Item;
 
-import com.grass.symbiosis.Symbiosis;
-import com.grass.symbiosis.block.ModBlocks;
+import com.grass.phyturgy.Phyturgy;
+import com.grass.phyturgy.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,7 +16,7 @@ public class ModCreativeModeTabs {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(
             Registries.CREATIVE_MODE_TAB,
-            Symbiosis.MOD_ID
+            Phyturgy.PHYTURGY
     );
 
     public static void register(IEventBus eventBus) {
@@ -24,7 +24,7 @@ public class ModCreativeModeTabs {
     }
 
     public static final Supplier<CreativeModeTab> SYMBIOSIS_TAB = CREATIVE_MODE_TABS.register("symbiosis", () -> CreativeModeTab.builder()
-            .title(Component.translatable("itemGroup." + Symbiosis.MOD_ID))
+            .title(Component.translatable("itemGroup." + Phyturgy.PHYTURGY))
             .icon(() -> new ItemStack(Items.FERN))
             .displayItems((params, output) -> {
                 output.accept(ModItems.FIELD_JOURNAL.get());
