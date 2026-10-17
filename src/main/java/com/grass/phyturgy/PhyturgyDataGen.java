@@ -1,9 +1,6 @@
 package com.grass.phyturgy;
 
-import com.grass.phyturgy.datagen.ModBlockLootTableProvider;
-import com.grass.phyturgy.datagen.ModBlockTagsProvider;
-import com.grass.phyturgy.datagen.ModModelProvider;
-import com.grass.phyturgy.datagen.ModRecipeProvider;
+import com.grass.phyturgy.datagen.*;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -20,6 +17,7 @@ public class PhyturgyDataGen {
 
         event.createProvider(ModModelProvider::new);
         event.createProvider(ModBlockTagsProvider::new);
+        event.createProvider(ModItemTagsProvider::new);
         event.createProvider(ModRecipeProvider.Runner::new);
         event.createProvider((output, lookupProvider) -> new LootTableProvider(
                 output,

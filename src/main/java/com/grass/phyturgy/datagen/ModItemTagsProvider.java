@@ -17,6 +17,12 @@ public class ModItemTagsProvider extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(ModTags.Items.BIOMATTER)
-                .addTag(Tags.Items.MUSHROOMS);
+                .addTag(Tags.Items.MUSHROOMS)
+                .addTag(Tags.Items.CROPS)
+                .addTag(Tags.Items.FLOWERS)
+                .addTag(Tags.Items.SEEDS)
+                .addTag(Tags.Items.FOODS_FRUIT)
+                .addTag(Tags.Items.FOODS_VEGETABLE)
+                .addTag(Tags.Items.FOODS_BERRY);
     }
 }
