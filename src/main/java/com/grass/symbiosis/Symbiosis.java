@@ -1,5 +1,8 @@
 package com.grass.symbiosis;
 
+import com.grass.symbiosis.Item.ModCreativeModeTabs;
+import com.grass.symbiosis.Item.ModItems;
+import com.grass.symbiosis.block.ModBlocks;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -30,6 +33,10 @@ public class Symbiosis {
     public Symbiosis(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
         // Register the item to a creative tab

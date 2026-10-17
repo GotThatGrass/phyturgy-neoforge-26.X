@@ -1,7 +1,9 @@
 {
-  "itemGroup.symbiosis": "Example Mod Tab",
-  "block.symbiosis.example_block": "Example Block",
-  "item.symbiosis.example_item": "Example Item",
+  "itemGroup.symbiosis": "Symbiosis",
+  "item.symbiosis.field_journal": "Field Journal",
+  "item.symbiosis.pinecone": "Pinecone",
+  "item.symbiosis.peat": "Peat",
+  "block.symbiosis.peat_block": "Peat Block",
 
   "symbiosis.configuration.title": "Symbiosis Configs",
   "symbiosis.configuration.section.symbiosis.common.toml": "Symbiosis Configs",
