@@ -5,7 +5,7 @@
 <!-- Replace these links once your project pages are available. -->
 [![Minecraft](https://img.shields.io/badge/Minecraft-26.1-2d6b35?style=flat-square&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
 [![NeoForge](https://img.shields.io/badge/Mod%20Loader-NeoForge-orange?style=flat-square)](https://neoforged.net/)
-[![License](https://img.shields.io/badge/Code%20License-MIT-blue?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/Code%20License-MIT-blue?style=flat-square)](LICENSE.md)
 
 ## Overview
 
